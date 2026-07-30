@@ -877,9 +877,7 @@
 
     filtrar();
 
-    // contador do topo com o número real
-    const statVagas = document.getElementById('statVagasNum');
-    if (statVagas) statVagas.textContent = VAGAS_TOTAL.toLocaleString('pt-BR');
+    // contador do topo é FIXO em 55.005 (definido no HTML) — não sobrescrever
   }
   initVitrineReal();
 
